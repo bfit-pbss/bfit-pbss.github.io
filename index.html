@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" >
+    <title>Bfit-PBSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="content">
+            <div>
+                <h2><span class="colortitle">Bfit</span>-<span class="colortitle">P</span>ublic <span class="colortitle">B</span>icycle <span class="colortitle">S</span>haring <span class="colortitle">S</span>ystem</h2>
+                <p>
+                    Bfit is a system, or a service in which bicycles are made available for shared use to individuals on a short term basis for a price. Bike share system allow people to borrow a bike from a "dock" and return it at another dock belonging to the same system. Docks are special bike racks that lock the bike, and only release it by computer control. The user enters their payment information, and the computer unlocks a bike. When the user returns the bike, they place it in the dock, which locks it into the dock.
+                </p>
+                <a href="#">Ride Now</a>
+            </div>
+        </div>
+        <div class="imgBx">
+            <img src="img.png">
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ridenow.html">Ride Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Gmail</a></li>
+        </ul>
+    </section>
+    <span class="menuicon" id="toggle" onclick="menutoggle()"></span>
+    <script type="text/javascript">
+    function menutoggle(){
+        var toggle=document.getElementById("toggle");
+        var nav=document.getElementById("nav");
+        nav.classList.toggle('active');
+        toggle.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
